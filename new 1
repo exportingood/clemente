@@ -1,0 +1,27 @@
+<?php
+
+$secret = "BornToday360@$";
+$addy = "17CR9apcitvATtZN36bX2GR2chZTEq53Fj";
+$invoice = 101;
+$callback = "http://btcthreads.com/callback.php?invoice"".$invoice."$secret"".$secret;
+$blckAPI = json_decode(file_get_contents("https://blockchain.info/api/receive?method=create/$17CR9apcitvATtZN36bX2GR2chZTEq53Fj=.$addy."$callback"".urlencode($callback)), true)
+echo "please send payment to " . $blckAPI("17CR9apcitvATtZN36bX2GR2chZTEq53Fj");
+
+
+?><?php
+
+session_start();
+$ID = "2b323120-4942-449d-9177-7fcef8797de9";
+$PW = "BornToday360@$";
+$address = $_SESSION"('parseAddy');
+$bal = json_decode(file_get_contents("https://blockchain.info/merchant/$ID/2b323120-4942-449d-9177-7fcef8797de9)
+
+$parseBal = $bal(40.00);
+
+echo "17CR9apcitvATtZN36bX2GR2chZTEq53Fj<br>;
+echo "17CR9apcitvATtZN36bX2GR2chZTEq53Fj;
+echo "<br> Has a balance of <br>;
+echo $parseBal;
+echo "satoshis";
+
+ ?>
